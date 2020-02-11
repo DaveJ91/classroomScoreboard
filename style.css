@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url('background.jpg');
+}
+
+.mainHeader {
+    text-align: center;
+    height: 100px;
+    background: rgba(225, 225, 225, .5);
+    border-radius: 20px;
+    
+}
+
+.mainHeader-title {
+    font-size: 40px;
+    font-weight: 800px;
+    margin-left: 50px;
+}
+
+
+
+.subContainer {
+    background: rgba(225, 225, 225, .5);
+    height: 100%;
+    border-radius: 20px;
+}
+
+.team {
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background: #FC466B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3F5EFB, #FC466B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke;
+
+    font-size: 20px;
+}
+
+.ui.header {
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.teamName, .teamPoints {
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+#mainContainer {
+    margin: 50px 200px;
+    height: 800px;
+    background: rgba(225, 225, 225, .9);
+    border-radius: 10px;
+
+}
+
+.teamName {
+  
+    
+}
+
+.teamPoints {
+    
+    
+}
+
+.teamControls {
+   
+    
+}
+

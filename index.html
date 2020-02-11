@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       
+
+
+        <div class="ui grid" id="mainContainer" style="display: none;">
+
+            
+
+            <div class="eight wide column">
+                <h1 class="mainHeader-title">Team Leaderboard</h1>
+                <div id="teamsList"></div>
+                 
+            </div>
+
+            <div class="eight wide column">
+                
+                <h1 class="mainHeader-title">Badges</h1>
+                
+                <div class="ui massive middle aligned divided list" id="studentsList">
+                </div>
+            
+            </div>
+
+        
+        </div>
+
+
+        <!-- Starter Modal -->
+        <div class="ui modal" style="margin:200px;">
+          
+            <div class="header">
+              Select a Class
+            </div>
+            <div class="content">
+                <div class="ui form">
+                    <div class="inline field">
+                        <label>Class</label>
+                        <div class="ui selection dropdown">
+                            <input type="hidden" name="class">
+                            <i class="dropdown icon"></i>
+                            <div class="default text">Class</div>
+                            <div class="menu" id="startMenu-students">
+                                <div class="item" value="LX5">KET LX 5-6</div>
+                                <div class="item" value="LX6">KET LX 6-7</div>
+                                <div class="item" value="MJ6">KET MJ 6-7</div>
+                                <div class="item" value="MJ6">Flyers MJ 4-5</div>
+                                <div class="item" value="MJ6">Flyers MJ 5-6</div>
+                                
+                                <div class="item" value="custom">Custom</div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <div class="ui divider"></div>
+
+            <div class="ui grid">
+                <div class="eight wide column">
+                    <h2>Students</h2>
+
+                    <div class="ui middle aligned selection list" id="start-studentsList"> </div>
+
+
+              
+                    <div class="ui action input">
+                        <input type="text" value="" placeholder="Student Name" id="startmenuinput-name">
+                        <button class="ui red right icon button" id="startmenuinput-avatar">
+                            <i class="user circle icon"></i>      
+                          </button>
+                        <button class="ui green right icon button" id="startmenuinput-add">
+                          <i class="plus icon"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="eight wide column">
+                    <h2>Teams</h2>
+                    <ul id="start-teamsList">  
+                    </ul>
+        
+                    <button class="ui labeled red icon button" id="generateRandomTeamsButton">
+                        <i class="random icon"></i>
+                        Generate Random Teams
+                    </button>
+                </div>
+
+
+
+            </div>
+
+            
+            
+            <br>
+            <br>
+            <br>
+            <div class="actions">
+             
+              <div class="ui green button" id="modal-start">Start</div>
+            </div>
+
+
+
+          </div>
+        </div>
+        
+
+        
+
+                     
+
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="scripts.js"></script>
+</html>
+
